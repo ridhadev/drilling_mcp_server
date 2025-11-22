@@ -1,0 +1,24 @@
+{
+    "mcpServers": {
+        
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "."
+            ]
+        },
+        
+        "fetch": {
+            "command": "uvx",
+            "args": ["mcp-server-fetch"]
+        },
+        
+        "drilling": {
+            "command": "python3",
+            "args": ["drilling_mcp_server.py"]
+        }
+    }
+}
+  
